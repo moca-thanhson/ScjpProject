@@ -1,6 +1,9 @@
 package chapter9.definingThread;
 
 public class ManyNames {
+	/**
+	 * //will output display not the same after each run
+	 */
 	public static void main(String[] args) {
 	    //Make one Runnable 
 		NameRunnable nr = new NameRunnable();
@@ -17,6 +20,6 @@ public class ManyNames {
 		two.start();
 		three.start();
 		
-		//will output display not the same after each run
+		
     }
 }
