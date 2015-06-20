@@ -2,7 +2,7 @@ package chapter9.definingThread;
 
 public class ManyNames {
 	/**
-	 * //will output display not the same after each run
+	 * This method used for test output display not the same after each run
 	 */
 	public static void main(String[] args) {
 	    //Make one Runnable 
